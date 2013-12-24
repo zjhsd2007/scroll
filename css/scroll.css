@@ -1,0 +1,11 @@
+@charset "utf-8";
+/*滚动条样式*/
+.sky_warpper {padding:0 10px 10px 0;}
+.sky_scrollTopOuter {width:5px;background:#ddd;opacity:0.3;}
+.sky_scrollTopOuter:hover {opacity:0.8;width:5px;-webkit-transition:opacity,width 0.3s ease-out;}
+.sky_scrollTop { background:#333;opacity:0.3;width:5px;-webkit-border-radius:5px;-webkit-transition:opacity,width 0.3s ease-out; cursor:default;}
+.sky_warpper:hover .sky_scrollTop { opacity:0.8;width:5px;-webkit-transition:opacity,width 0.3s ease-out;}
+.sky_scrollLeftOuter {height:5px;background:#ddd;opacity:0.3;}
+.sky_scrollLeftOuter:hover {opacity:0.8;height:5px;-webkit-transition:opacity,height 0.3s ease-out;}
+.sky_scrollLeft { background:#333;opacity:0.3;height:5px;-webkit-border-radius:5px;-webkit-transition:opacity,height 0.3s ease-out; cursor:default;}
+.sky_warpper:hover .sky_scrollLeft { opacity:0.8;height:5px;-webkit-transition:opacity,height 0.3s ease-out;}
